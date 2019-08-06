@@ -1,0 +1,196 @@
+#wrapper{font-family: tahoma;}
+
+.container{width:90%;
+margin:0 auto;
+}
+
+#subheader{
+	width:100%;
+	height: 30px;
+	background: #ff4000;
+	color:#fff;
+	margin-top: -15px;
+}
+
+#subheader p{
+	float: left;
+	margin-top: 7px;
+
+}
+#subheader a{
+	float: right;
+	line-height: 30px;
+	color:#fff;
+	text-decoration:none;
+	margin-left: 30px;
+}
+/*logo styling*/
+#main-header{
+	width:100%;
+	height:100px;
+	background: #ff8000;
+	float: left;
+	margin-top: -15px;
+}
+
+#logo{
+	width: 250px;
+	margin-top:10px;
+	float: left;
+}
+
+#ist{
+	color: brown;
+	font-size: 45px;
+	font-weight: bold;
+	
+	font-family:cursive;
+}
+
+#iist{
+	color: black;
+	font-size: 35px;
+	font-weight: bold;
+	font-family:cursive;
+}
+/*searching area style*/
+
+#search{
+	width: 650px;
+	float: left;
+	padding: 20px;
+	margin-left: 50px;
+}
+
+
+.search-area{
+	width:550px;
+	height: 50px;
+	background: #fff;
+	border: none;
+	border-radius:10px;
+	float: left;
+	padding-left:15px;
+
+
+}
+
+.search-btn{
+	width: 100px;
+	height: 52px;
+	border-radius: 10px;
+	border: none;
+	color: #fff;
+	background: brown;
+	margin-left: -100px;
+
+}
+
+
+/*user menu styling*/
+#user-menu{
+	width: 300px;
+	float:right;
+	margin-top: 20px;
+}
+
+/*this is list styling*/
+#user-menu li{
+	float: left;
+	width:140px;
+	text-align: center;
+	list-style: none;
+	font-size: 25px;
+	border-left: 1px solid brown;
+}
+
+#user-menu li:hover{
+	font-size: 30px;
+	transition: all0.5s ease;
+
+}
+
+#user-menu li a{
+	color:brown;
+	text-decoration:none;
+}
+
+
+/*navigation bar styling*/
+#navigation{
+	width:100%;
+	height:35px;
+	background: #ff8000;
+	float: left;
+	box-shadow: 10px 14px 50px 2px #ff8000
+}
+
+nav{
+	width: 100%;
+	margin:0 auto;
+
+}
+
+nav a{
+	margin-left: 35px;
+	color: brown;
+	text-decoration: none;
+}
+
+nav a:hover{
+	color:white;
+	transition:all 0.5s ease ;
+}
+
+
+/*slider*/
+/*#slider{
+	width: 100%;
+	max-width:100%;
+	float: left;
+}
+*/
+
+/*==Category*/
+#heading-block{
+	width: 100%;
+	height: auto;
+	float: left;
+	color: brown;
+	font-size:22px;
+}
+
+#heading-block h2{
+	line-height: 35px;
+	border-left:20px solid brown;
+	padding-left: 10px;
+
+}
+
+/*Category boxes*/
+.catbox{
+	width: 250px;
+	height: 240px;
+	overflow: hidden;
+	float: left;
+	position: relative;
+	margin:0 15 30 0;
+
+
+
+}
+
+.catbox span{
+	width: 100%;
+	height:35px;
+	line-height: 35px;
+	background: rgba(0,0,0,0.6);
+	color:white;
+	display: block;
+	bottom: 30px;
+	position: absolute;
+	z-index: 999;
+	text-align: center;
+
+
+}
